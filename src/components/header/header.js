@@ -2,8 +2,8 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import "./header.scss"
-import Github from "../assets/icons/github.svg"
-import Linkedin from "../assets/icons/linkedin.svg"
+import Github from "../../assets/icons/github.svg"
+import Linkedin from "../../assets/icons/linkedin.svg"
 
 const Header = ({ siteTitle }) => (
   <header className='header'>

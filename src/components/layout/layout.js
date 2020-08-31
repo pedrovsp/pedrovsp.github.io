@@ -8,10 +8,11 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-import Header from "./header"
+import Header from "../header/header"
 import "./layout.scss"
-import Footer from './footer'
-import Navbar from './navbar/navbar'
+import Footer from '../footer/footer'
+import Navbar from '../navbar/navbar'
+import "../../assets/styles/styles.scss"
 
 const Layout = ({ children }) => {
   return (

@@ -1,7 +1,7 @@
 import React from "react"
 import "./footer.scss"
-import Github from "../assets/icons/github.svg"
-import Linkedin from "../assets/icons/linkedin.svg"
+import Github from "../../assets/icons/github.svg"
+import Linkedin from "../../assets/icons/linkedin.svg"
 import { Link } from 'gatsby'
 
 const Footer = () => (
