@@ -1,5 +1,4 @@
 :root {
-  font-size: 16px;
   --support-color: #ABC4E1;
   --primary-color: #000;
   --secondary-color: #fff;
@@ -8,10 +7,10 @@
   --header-background: var(--primary-color); 
   --header-text: var(--secondary-color);
 
-  --fs-xlarge: 2rem; // 24px
-  --fs-large: 1.125rem; // 18px
-  --fs-medium: 0.9375rem; // 15px
-  --fs-regular: 0.8125rem; // 13px 
+  --fs-xlarge: 2em; // 24px
+  --fs-large: 1.125em; // 18px
+  --fs-medium: 0.9375em; // 15px
+  --fs-regular: 0.8125em; // 13px 
 
   --fw-bold: bold;
   --fw-regular: normal;
