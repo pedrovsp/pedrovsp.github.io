@@ -4,22 +4,25 @@ import "./navbar.scss"
 
 const Navbar = () => (
   <nav className='navbar'>
-      <Link to="#home" target="_blank">
+    <div>
+      <Link to="#home">
         <span className='emoji'>🏠</span>
         <span className='text'>início</span>
       </Link>
-      <Link to="https://linkedin.com/in/pedrovsp" target="_blank">
+      <Link to="#work">
         <span className='emoji'>💼</span>
         <span className='text'>profissional</span>
       </Link>
-      <Link to="https://linkedin.com/in/pedrovsp" target="_blank">
+      <Link to="#education">
         <span className='emoji'>🎓</span>
         <span className='text'>acadêmico</span>
       </Link>
-      <Link to="https://linkedin.com/in/pedrovsp" target="_blank">
+      <Link to="#content">
         <span className='emoji'>📖</span>
         <span className='text'>conteúdos</span>
       </Link>
+
+    </div>
   </nav>
 )
 
