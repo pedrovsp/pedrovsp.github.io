@@ -7,10 +7,10 @@ import Linkedin from "../../assets/icons/linkedin.svg"
 
 const Header = ({ siteTitle }) => (
   <header className='header'>
-    <span className='title'>
+    <span className='header__title'>
       {siteTitle}
     </span>
-    <div className='icons'>
+    <div className='header__icons'>
       <Link to="https://github.com/pedrovsp" target="_blank">
         <Github />
       </Link>

@@ -4,19 +4,24 @@
     background-color: var(--header-background);
     color: var(--header-text);
     font-weight: var(--fw-bold);
-    font-size: var(--fs-xlarge);
+    font-size: 3em;
     padding: 15px 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
 
-    .title {
+    @media only screen and (max-width: 768px){
+      font-size: 2em;
+      line-height: 28px;
+    }
+
+    .header__title {
       cursor: pointer;
       letter-spacing: 0.2em;
     }
 
-    .icons {
+    .header__icons {
       display: none;
       svg {
         cursor: pointer;
