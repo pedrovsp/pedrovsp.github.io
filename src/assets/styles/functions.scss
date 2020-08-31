@@ -14,9 +14,5 @@
 }
 
 @mixin decagon($a, $exponent) {
-  $result: 1;
-  @for $_ from 1 through $exponent {
-    $result: $result * $base;
-  }
-  @return $result;
+
 }
