@@ -1,0 +1,25 @@
+.title {
+  font-weight: var(--fw-bold);
+  line-height: 1.2;
+  letter-spacing: 1px;
+
+  .text {
+    background-image: linear-gradient(120deg, var(--support-color) 100%, var(--support-color) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.3em;
+    background-position: 0 85%;
+    transition: background-size 0.25s ease-in;
+    
+    &:hover {
+      background-size: 100% 85%;
+    }
+  }
+
+  .emoji {
+    margin-left: 15px;
+  }
+}
+
+h1.title {
+  font-size: 4em;
+}

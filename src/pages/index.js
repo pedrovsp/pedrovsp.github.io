@@ -2,13 +2,12 @@ import React from "react"
 
 import Layout from "../components/layout/layout"
 import SEO from "../components/seo"
+import { H1 } from '../components/title/title'
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <SEO title="Pedro Vitorino" />
+    <H1 title='Fala pessoal, blz?' emoji='👋'></H1>
   </Layout>
 )
 
