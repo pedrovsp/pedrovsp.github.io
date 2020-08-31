@@ -2,7 +2,7 @@
 @import './reset.scss';
 @import './variables.scss';
 
-body {
+:root, body, html {
   font-size: var(--fs-regular);
   color: var(--txt-color);
   font-weight: var(--fw-regular);
