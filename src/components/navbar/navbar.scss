@@ -6,8 +6,13 @@
 
     text-transform: uppercase;
     letter-spacing: 0.2em;
-    font-family: var(--ff-navbar);
-
+	font-family: var(--ff-navbar);
+	font-size: var(--fs-large);
+  
+	@media only screen and (max-width: 768px){
+		font-size: var(--fs-medium);
+	}
+		  
     display: flex;
     justify-content: center;
     align-items: center;
