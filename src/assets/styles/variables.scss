@@ -1,0 +1,21 @@
+:root {
+  font-size: 16px;
+  --support-color: #ABC4E1;
+  --primary-color: #000;
+  --secondary-color: #fff;
+  --txt-color: var(--primary-color);
+  --background-color: var(--secondary-color);
+  --header-background: var(--primary-color); 
+  --header-text: var(--secondary-color);
+
+  --fs-xlarge: 2rem; // 24px
+  --fs-large: 1.125rem; // 18px
+  --fs-medium: 0.9375rem; // 15px
+  --fs-regular: 0.8125rem; // 13px 
+
+  --fw-bold: bold;
+  --fw-regular: normal;
+
+  --ff-primary: 'Titillium Web', sans-serif;
+  --ff-navbar: orator-std, monospace;
+}

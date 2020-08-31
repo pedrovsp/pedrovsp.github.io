@@ -1,0 +1,26 @@
+.footer {
+  width: calc(100vw - 60px);
+  height: 3rem;
+  background-color: var(--background-color);
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-xlarge);
+  padding: 15px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+
+  svg {
+    cursor: pointer;
+    width: 1.2em;
+    height: 1.2em;
+    &:first-child {
+      margin-right: 0.5em;
+    }
+  }
+
+  @media only screen and (max-width: 768px){
+    display: none;
+  }
+}

@@ -1,0 +1,35 @@
+.header {
+    width: calc(100vw - 60px);
+    height: 3rem;
+    background-color: var(--header-background);
+    color: var(--header-text);
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-xlarge);
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+
+    .title {
+      cursor: pointer;
+      letter-spacing: 0.2em;
+    }
+
+    .icons {
+      display: none;
+      svg {
+        cursor: pointer;
+        width: 1.2em;
+        height: 1.2em;
+        fill: var(--secondary-color);
+        &:first-child {
+          margin-right: 0.5em;
+        }
+      }
+
+      @media only screen and (max-width: 768px){
+        display: initial;
+      }
+    }
+}

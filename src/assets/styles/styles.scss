@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap');
+@import './reset.scss';
+@import './variables.scss';
+
+body {
+  font-size: var(--fs-regular);
+  color: var(--txt-color);
+  font-weight: var(--fw-regular);
+  font-family: var(--ff-primary);
+}

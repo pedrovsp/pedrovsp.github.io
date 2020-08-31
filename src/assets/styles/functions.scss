@@ -1,0 +1,22 @@
+@mixin triangle($side) {
+  width: 0; 
+  height: 0; 
+  border-left: $side solid transparent;
+  border-right: $side solid transparent;
+  
+  border-bottom: $side solid var(--support-color);
+}
+
+@mixin circle($radius) {
+  width: $radius;
+  height: $radius;
+  border-radius: 50%;
+}
+
+@mixin decagon($a, $exponent) {
+  $result: 1;
+  @for $_ from 1 through $exponent {
+    $result: $result * $base;
+  }
+  @return $result;
+}

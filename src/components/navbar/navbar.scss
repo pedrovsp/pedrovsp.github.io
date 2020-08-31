@@ -1,0 +1,43 @@
+.navbar {
+    width: calc(100vw - 26em);
+    height: 1.5rem;
+    padding: 10px 13em;
+    top: calc(3rem + 30px);
+
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-family: var(--ff-navbar);
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    border-bottom: 1px solid var(--primary-color);
+
+    a {
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      padding: 5px 7px;
+
+      &:visited, &:link {
+        color: initial;
+      }
+
+      &:hover {
+        background-color: var(--primary-color);
+        color: var(--secondary-color);
+      }
+
+      .emoji {
+        font-size: var(--fs-large);
+        margin-right: 8px;
+
+        @media only screen and (max-width: 768px){
+          display: none;
+        }
+      }
+    }
+
+
+}
