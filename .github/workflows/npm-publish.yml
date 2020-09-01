@@ -18,3 +18,10 @@ jobs:
           access-token: ${{ secrets.ACCESS_TOKEN }}
           gatsby-args: --prefix-paths
           deploy-branch: gh-pages
+      - uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: v.${{ github.ref }}
+          release_name: Release ${{ github.ref }}
+          body: Release ${{ github.ref }}
