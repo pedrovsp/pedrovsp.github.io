@@ -3,7 +3,7 @@ import './title.scss'
 
 interface TitleProps {
 	title: string;
-	emoji: string;
+	emoji?: string;
 }
 
 export const H1 = (props: TitleProps) => {
