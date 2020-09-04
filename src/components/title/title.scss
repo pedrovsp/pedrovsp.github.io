@@ -2,7 +2,7 @@
   font-weight: var(--fw-bold);
   line-height: 1.2;
   letter-spacing: 1px;
-  max-width: 75%;
+  max-width: 80%;
 
   .text {
     background-image: linear-gradient(120deg, var(--support-color) 100%, var(--support-color) 100%);
@@ -24,4 +24,27 @@
 h1.title {
   font-size: 2.5rem;
   margin-bottom: 1em;
+}
+
+h2.title {
+  font-size: 2rem;
+  max-width: 100%;
+  margin-bottom: 0.8em;
+
+  .text {
+    background-size: 100% 65%;
+    background-position: 0 65%;
+    &:hover {
+      background-size: 100% 65%;
+    }
+  }
+}
+
+h3.title {
+  font-size: 1.4rem;
+  margin-bottom: 0.3em;
+
+  .text {
+    background: none;
+  }
 }
