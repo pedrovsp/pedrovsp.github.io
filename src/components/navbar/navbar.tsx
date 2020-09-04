@@ -5,7 +5,7 @@ import "./navbar.scss"
 const Navbar = () => (
   <nav className='navbar'>
     <div>
-      <Link to="#home">
+      <Link to="#">
         <span className='emoji'>🏠</span>
         <span className='text'>início</span>
       </Link>

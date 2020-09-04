@@ -1,4 +1,3 @@
-import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import "./header.scss"
@@ -11,12 +10,12 @@ const Header = ({ siteTitle }) => (
       {siteTitle}
     </span>
     <div className='header__icons'>
-      <Link to="https://github.com/pedrovsp" target="_blank">
+      <a href="https://github.com/pedrovsp" target="_blank" rel="noreferrer">
         <Github />
-      </Link>
-      <Link to="https://linkedin.com/in/pedrovsp" target="_blank">
+      </a>
+      <a href="https://linkedin.com/in/pedrovsp" target="_blank" rel="noreferrer">
         <Linkedin />
-      </Link>
+      </a>
     </div>
   </header>
 )

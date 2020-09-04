@@ -10,6 +10,7 @@
     justify-content: space-between;
     align-items: center;
     position: fixed;
+    z-index: 1;
 
     @media only screen and (max-width: 768px){
       font-size: 1.5rem;
@@ -22,12 +23,13 @@
 
     .header__icons {
       display: none;
+      font-size: 1em;
       svg {
         cursor: pointer;
-        width: 1.2em;
-        height: 1.2em;
+        width: 1.7em;
+        height: 1.7em;
         fill: var(--secondary-color);
-		margin-left: 0.5em;
+		    margin-left: 0.5em;
       }
 
       @media only screen and (max-width: 768px){
