@@ -1,0 +1,20 @@
+.boxList {
+  padding: 1em;
+  border: 4px solid var(--support-color);
+  max-width: 330px;
+
+  &.top {
+    border-right: none;
+  }
+
+  &.bottom {
+    margin-top: -4px;
+    padding-bottom: 2em;
+    border-left: none;
+    border-bottom: none;
+  }
+
+  .boxList__content {
+    margin-top: -2.3em;
+  }
+}
