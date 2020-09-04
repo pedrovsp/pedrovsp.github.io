@@ -2,10 +2,34 @@
 @import './reset.scss';
 @import './variables.scss';
 
-:root, body, html {
+:root, html {
   font-size: var(--fs-regular);
+}
+
+body {
+  font-size: var(--fs-large);
   color: var(--txt-color);
   font-weight: var(--fw-regular);
   font-family: var(--ff-primary);
   scroll-behavior: smooth;
+}
+
+ul {
+    list-style-type: "→";
+    list-style-position: inside;
+    margin-bottom: 1em;
+    
+    li {
+      line-height: 2em;
+
+      &::before {
+        content: "";
+        width: 1em;
+        display: inline-block;
+      }
+    }
+}
+
+strong {
+  font-weight: var(--fw-bold);
 }
