@@ -5,8 +5,14 @@ import Layout from "../components/layout/layout"
 import SEO from "../components/seo"
 import { H1, H2, H3 } from '../components/title/title'
 import { Par } from "../components/paragraph/paragraph"
-import { Link } from "gatsby"
 import { BoxList } from '../components/box-list/box-list'
+import { ContentBox } from '../components/content-box/content-box';
+
+const contents: {  title: string; type: 'article' | 'talk' | 'project'; content: string; url: string;}[] = [
+  { type: 'article', title: 'O minimo sobre Git', url:'https://www.google.com', content:'sometings'},
+  { type: 'article', title: 'O minimo sobre Git', url:'https://www.google.com', content:'sometings'},
+  { type: 'article', title: 'O minimo sobre Git', url:'https://www.google.com', content:'sometings'},
+];
 
 const IndexPage = () => (
 	<Layout>
@@ -26,7 +32,7 @@ const IndexPage = () => (
     <section id="work">
       <H1 title='Com o que trabalho' emoji='💼' />
       <Par>
-        Hoje atuo como desenvolvedor frontend no <Link to='https://socialbank.com.br'>Social Bank</Link>. Trabalho principalmente com o framework Angular. Tambem ja atuei com desenvolvimento backend com a linguagem Java e C#. Alem disso ja trabalhei
+        Hoje atuo como desenvolvedor frontend no <a href='https://socialbank.com.br' target="_blanck" rel="noreferrer">Social Bank</a>. Trabalho principalmente com o framework Angular. Tambem ja atuei com desenvolvimento backend com a linguagem Java e C#. Alem disso ja trabalhei
       </Par>
       <BoxList boxType='top'>
         <H2 title='Principais ferramentas' emoji='🔧' />
@@ -76,6 +82,10 @@ const IndexPage = () => (
     </section>
     <section id="contents">
       <H1 title='Projetos pessoais' emoji='💭' />
+      {
+        contents.map((content, i) => 
+          (<ContentBox key={i} type={content.type} title={content.title} content={content.content} url={content.url}/>))
+      }
     </section>
 	</Layout>
 )
