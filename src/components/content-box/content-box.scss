@@ -1,0 +1,17 @@
+.contentBox {
+  border: 1px solid var(--support-color);
+  border-left-width: 15px;
+  padding: 10px 5px;
+  padding-left: 13px;
+  margin-bottom: 1.5em;
+  cursor: pointer;
+
+  .contentBox__Title {
+    font-weight: var(--fw-bold);
+    margin-bottom: 10px;
+
+    .contentBox__Title_emoji {
+      margin-left: 8px;
+    }
+  }
+}
