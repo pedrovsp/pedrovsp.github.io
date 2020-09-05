@@ -95,18 +95,21 @@ const IndexPage = () => (
 			<H1 title='Formacao academica' emoji='🎓' />
 			<Par marginBottom={true}>
 				Especialista em Analise e Desenvolvimento de Sistemas para Gestao de Negocios pelo Instituto Federal do Triangulo Mineiro. Alem disso sou bacharel em Sistemas de Informaçao pela Universidade Federal de Uberlandia.
-      		</Par>
+			</Par>
 			<div className='d-flex align-center mb-lg'>
 				<div className='fig-5'>
 					<Geoform type={'triangle'} size={'sm'}></Geoform>
 				</div>
 				<Par>
 					Como trabalho de conclusao da pos graduacao utilizei <strong>Python</strong> e tecnicas de analise de dados para gerar um perfil de reprovacao dos alunos de computacao do Brasil.
-	      		</Par>
+				</Par>
 			</div>
 		</section>
 		<section id="contents">
 			<H1 title='Projetos pessoais' emoji='💭' />
+			<div className='fig-6'>
+				<Geoform type={'decagon'} size={'lg'}></Geoform>
+			</div>
 			{
 				contents.map((content, i) =>
 					(<ContentBox key={i}

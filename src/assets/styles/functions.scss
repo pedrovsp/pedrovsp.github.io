@@ -27,7 +27,7 @@
   position: relative;
   width: $radius;
   height: $radius;
-  clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 50%, 50% 50%, 50% 0%);
+  clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 50%, 50% 50%, 35% 0%);
 }
 
 @mixin decagon($side) {

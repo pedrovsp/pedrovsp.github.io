@@ -30,7 +30,7 @@
 
   &.decagon {
     &.lg {
-      @include decagon(6em)
+      @include decagon(10em)
     }
   }
 }
