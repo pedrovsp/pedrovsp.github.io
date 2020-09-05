@@ -2,7 +2,7 @@ import React from 'react'
 import './geoform.scss';
 
 interface GeoformProps {
-  type: 'triangle' | 'circle' | 'pacman' | 'hexagon' | 'rectangle';
+  type: 'triangle' | 'circle' | 'pacman' | 'decagon' | 'rectangle';
   size: 'sm' | 'md' | 'lg';
 }
 

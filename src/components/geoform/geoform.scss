@@ -3,10 +3,10 @@
 .geoform {
   &.triangle {
     &.sm {
-      @include triangle(1em)
+      @include triangle(2em)
     }
     &.lg {
-      @include triangle(4em)
+      @include triangle(6em)
     }
   }
 
@@ -28,8 +28,9 @@
     }
   }
 
-  &.hexagon {
+  &.decagon {
     &.lg {
+      @include decagon(6em)
     }
   }
 }
