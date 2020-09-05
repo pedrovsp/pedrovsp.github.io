@@ -1,0 +1,35 @@
+@import 'src/assets/styles/functions.scss';
+
+.geoform {
+  &.triangle {
+    &.sm {
+      @include triangle(1em)
+    }
+    &.lg {
+      @include triangle(4em)
+    }
+  }
+
+  &.circle {
+    &.lg {
+      @include circle(7em)
+    }
+  }
+
+  &.rectangle {
+    &.sm {
+      @include rectangle(2em)
+    }
+  }
+
+  &.pacman {
+    &.lg {
+      @include pacman(6em)
+    }
+  }
+
+  &.hexagon {
+    &.lg {
+    }
+  }
+}
