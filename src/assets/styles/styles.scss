@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap');
 @import './reset.scss';
 @import './variables.scss';
+@import './helpers.scss';
 
 :root, html {
   font-size: var(--fs-regular);

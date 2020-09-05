@@ -1,18 +1,38 @@
-@mixin triangle($side) {
-  width: 0; 
-  height: 0; 
-  border-left: $side solid transparent;
-  border-right: $side solid transparent;
-  
-  border-bottom: $side solid var(--support-color);
+@mixin triangle($side, $base: $side) {
+
+  width: $base;
+  height: $side;
+  background-color: var(--support-color);
+  clip-path:polygon(50% 0%, 0% 100%, 100% 100%);
 }
 
 @mixin circle($radius) {
   width: $radius;
   height: $radius;
-  border-radius: 50%;
+  border-radius: 100%;
+  background-color: var(--support-color);
 }
 
-@mixin decagon($a, $exponent) {
+@mixin rectangle($base, $height: $base) {
+  border: 1px solid var(--support-color);
+  width: $base;
+  height: $height;
+  background-color: var(--support-color);
+}
 
+@mixin pacman($radius) {
+  border-radius: 50%;
+  overflow: hidden;
+  background: var(--support-color);
+  position: relative;
+  width: $radius;
+  height: $radius;
+  clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 50%, 50% 50%, 35% 0%);
+}
+
+@mixin decagon($side) {
+  width: $side;
+  height: $side;
+  background-color: var(--support-color);
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
 }
