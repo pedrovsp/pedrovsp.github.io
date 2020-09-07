@@ -7,3 +7,9 @@ main {
   padding-bottom: calc(3rem + 30px + 4rem);
   overflow: hidden;
 }
+
+small {
+  margin: 0 auto;
+  display: block;
+  width: max-content;
+}

@@ -8,18 +8,23 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-import Header from "../header/header"
+import "../../assets/styles/styles.scss"
 import "./layout.scss"
+
+import Header from "../header/header"
 import Footer from '../footer/footer'
 import Navbar from '../navbar/navbar'
-import "../../assets/styles/styles.scss"
-
 const Layout = ({ children }) => {
   return (
     <React.Fragment>
       <Header siteTitle='PEDRO VITORINO' />
       <Navbar />
-      <main>{children}</main>
+        <main>
+          {children}
+        </main>
+        <small>
+          Desenvolvindo por <strong>Pedro Vitorino</strong>. 😀
+        </small>
       <Footer />
     </React.Fragment>
   )

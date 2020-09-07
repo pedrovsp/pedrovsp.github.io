@@ -7,6 +7,15 @@ module.exports = {
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-react-svg`,
+    {
+      resolve: `gatsby-plugin-nprogress`,
+      options: {
+        color: `#ABC4E1`
+      }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -14,8 +23,6 @@ module.exports = {
         path: `${__dirname}/src/assets/images`,
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -25,12 +32,19 @@ module.exports = {
         background_color: `#ABC4E1`,
         theme_color: `#ABC4E1`,
         display: `minimal-ui`,
-        icon: `src/assets/images/icon.png`, // This path is relative to the root of the site.
+        icon: `src/assets/images/icon.png`
       },
     },
-    `gatsby-plugin-react-svg`,
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-128579467-2",
+        pageTransitionDelay: 5000,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-offline`,
+      precachePages: [`/index/`],
+    }
   ],
 }
