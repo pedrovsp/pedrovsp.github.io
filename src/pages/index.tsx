@@ -52,10 +52,10 @@ const IndexPage = () => (
 				<H3 title='Front end' />
 				<ul>
 					<li>Angular / Material / Angular Elements</li>
-					<li>Typescript / Javascript / RxJS</li>
-					<li>React / Styled Components / Redux</li>
-					<li>SASS / CSS</li>
-					<li>HTML</li>
+					<li>React / Styled Components / Gatsby</li>
+					<li>Redux / RxJS</li>
+					<li>Typescript / Javascript</li>
+					<li>SASS / CSS / HTML</li>
 				</ul>
 				<H3 title='Back end' />
 				<ul>
