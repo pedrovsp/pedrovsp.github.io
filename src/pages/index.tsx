@@ -17,11 +17,11 @@ const IndexPage = () => (
 		<section id="home">
 			<H1 title='Fala pessoal, blz?' emoji='👋' />
 			<Par marginBottom={true}>
-				Sou Pedro Vitorino, programo e atuo principalmente com desenvolvimento front end. Estou imerso no mundo da tencologia desde 2009, ano em que tive meu primeiro contato com programação e comecei a me aventurar na área.
+				Meu nome é Pedro Vitorino, sou programador e atuo principalmente com desenvolvimento front end. Entrei no mundo da tecnologia em 2009, ano em que tive meu primeiro contato com programação e comecei a me desenvolver na área.
 			</Par>
 			<div className='d-flex align-center mb-lg'>
 				<Par>
-					Sou um grande entusiasta do universo da programação, nos últimos anos tenho me especializado em desenvolvimento front end, mas matenho o hábito de explorar outras áreas, principalmente arquitetura de sistemas, design de código e DevOps.
+					Sou um entusiasta do universo da programação, nos últimos anos tenho me especializado em desenvolvimento front end, mas matenho o hábito de explorar outras áreas, principalmente arquitetura de sistemas, design de código e DevOps.
 				</Par>
 				<div className='fig-1'>
 					<Geoform type={'triangle'} size={'lg'}></Geoform>
@@ -32,7 +32,7 @@ const IndexPage = () => (
 					<Geoform type={'rectangle'} size={'sm'}></Geoform>
 				</div>
 				<Par>
-					Acredito no papel e no poder das comunidades de tecnologia e por isso participo ativamente de eventos e meetups, além disso escrevo palestras e artigos sobre tecnologias que utilizo.
+					Acredito que as comunidades de tecnologia são um excelente espaço de colaboração e por isso participo ativamente de eventos e meetups. Recemente comecei a criar palestras e textos sobre tecnologias que utilizo.
 				</Par>
 			</div>
 		</section>
@@ -44,7 +44,7 @@ const IndexPage = () => (
 				<H1 title='Com o que trabalho?' emoji='💼' />
 			</div>
 			<Par marginBottom={true}>
-				Hoje atuo como desenvolvedor front end no <a href='https://socialbank.com.br' target="_blank" rel="noreferrer">Social Bank</a>. Nos últimos anos tenho trabalhado principalmente com o framework Angular, porém tenho interesse em todo ecossistema Javascript, e estudo outros frameworks e tecnologias, como React e Vue.js.
+				Hoje atuo como desenvolvedor front end no <a href='https://socialbank.com.br' target="_blank" rel="noreferrer">Social Bank</a>. Nos últimos anos tenho trabalhado principalmente com o framework Angular, porém tenho interesse em todo ecossistema Javascript, e estudo outros frameworks e tecnologias, principalmente React.
 			</Par>
 			<div className="top-box-border" />
 			<BoxList boxType='top'>
@@ -61,14 +61,12 @@ const IndexPage = () => (
 				<ul>
 					<li>Java / Spring / Hibernate</li>
 					<li>Relational DBs / DynamoDB / MongoDB</li>
-					<li>Azure API Management</li>
 				</ul>
 				<H3 title='DevOps' />
 				<ul>
 					<li>AWS / EC2 / RDS</li>
-					<li>Azure pipelines</li>
+					<li>Azure pipelines / API Management</li>
 					<li>Github / Git Actions</li>
-					<li>Docker</li>
 				</ul>
 			</BoxList>
 			<BoxList boxType='bottom'>
@@ -78,8 +76,8 @@ const IndexPage = () => (
 				</p>
 				<ul>
 					<li>TDD / BDD</li>
-					<li>CI / CD</li>
-					<li>Acessibilidade na Web</li>
+					<li>Docker / Kubernets</li>
+					<li>Acessibilidade (a11y)</li>
 					<li>Web components</li>
 				</ul>
 			</BoxList>
@@ -90,14 +88,14 @@ const IndexPage = () => (
 		<section id="education">
 			<H1 title='Formação acadêmica' emoji='🎓' />
 			<Par marginBottom={true}>
-				Especialista em Análise e Desenvolvimento de Sistemas para Gestão de Negócios pelo Instituto Federal do Triângulo Mineiro. Além disso sou bacharel em Sistemas de Informação pela Universidade Federal de Uberlândia.
+				Especialista em Análise e Desenvolvimento de Sistemas para Gestão de Negócios pelo Instituto Federal do Triângulo Mineiro. Bacharel em Sistemas de Informação pela Universidade Federal de Uberlândia.
 			</Par>
 			<div className='d-flex align-center mb-lg'>
 				<div className='fig-5'>
 					<Geoform type={'triangle'} size={'sm'}></Geoform>
 				</div>
 				<Par>
-					Como trabalho de conclusão da pós-graduação, utilizei <strong>Python</strong> e técnicas de análise de dados para traçar um perfil dos alunos que desistem de cursos computação no Brasil.
+					Como trabalho de conclusão da pós-graduação, utilizei <strong>Python</strong> e técnicas de análise de dados para traçar o perfil dos alunos que desistem de cursos computação no Brasil.
 				</Par>
 			</div>
 		</section>
