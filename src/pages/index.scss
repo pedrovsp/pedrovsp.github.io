@@ -47,7 +47,11 @@
 .fig-6 {
   position: absolute;
   z-index: -1;
-  right: 0;
-  transform: rotate(60deg)
-  margin-top: -4em;
+  right: 8em;
+  transform: rotate(60deg);
+  margin-top: -7em;
+
+  @media only screen and (max-width: 515px) {
+    right: 0;
+	}
 }

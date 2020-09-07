@@ -1,0 +1,26 @@
+export const contents: { title: string; type: 'article' | 'talk' | 'project'; content: string; url: string; }[] = [
+	{ 
+		type: 'article', 
+		title: 'Git - O que você precisa saber para trabalhar em equipe', 
+		url: 'https://www.google.com', 
+		content: 'Artigo explicando o uso básico da ferramenta Git para trabalhar em equipe.' 
+	},
+	{ 
+		type: 'talk', 
+		title: 'Criando PWAs com Angular', 
+		url: 'https://docs.google.com/presentation/d/1djBjl8KzQpSg90EYKNQrGmu96Lkr9UPPdYSwGamWfpM/edit?usp=sharing', 
+		content: 'Palestra explicando PWAs e como transformar sua aplicação Angular em uma PWA.' 
+	},
+	{ 
+		type: 'talk', 
+		title: 'Angular 9 e Ivy', 
+		url: 'https://slides.com/pedrovitorino/angular-9-e-ivy', 
+		content: 'Palestra sobre as novidades do Angular 9 e seu novo compilador, Ivy.' 
+	},
+	{ 
+		type: 'project', 
+		title: 'LotR PWA', 
+		url: 'https://github.com/pedrovsp/lotr-pwa', 
+		content: 'Aplicação criada para aplicar conceitos de PWAs com Angular e Senhor dos Anéis 🤔' 
+	},
+];

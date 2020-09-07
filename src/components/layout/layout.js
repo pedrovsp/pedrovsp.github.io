@@ -19,7 +19,12 @@ const Layout = ({ children }) => {
     <React.Fragment>
       <Header siteTitle='PEDRO VITORINO' />
       <Navbar />
-      <main>{children}</main>
+      <main>
+        {children}
+      </main>
+        <small>
+          Desenvolvindo por <strong>Pedro Vitorino</strong>. 😀
+        </small>
       <Footer />
     </React.Fragment>
   )
