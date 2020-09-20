@@ -64,7 +64,7 @@ const IndexPage = () => (
 				</ul>
 				<H3 title='DevOps' />
 				<ul>
-					<li>AWS / EC2 / RDS</li>
+					<li>AWS / EC2 / RDS / S3</li>
 					<li>Azure pipelines / API Management</li>
 					<li>Github / Git Actions</li>
 				</ul>
