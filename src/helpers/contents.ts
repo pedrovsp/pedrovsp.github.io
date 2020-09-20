@@ -16,5 +16,11 @@ export const contents: { title: string; type: 'article' | 'talk' | 'project'; co
 		title: 'LotR PWA', 
 		url: 'https://github.com/pedrovsp/lotr-pwa', 
 		content: 'Aplicação criada para aplicar conceitos de PWAs com Angular e Senhor dos Anéis 🤔' 
-    }
+    },
+    { 
+		type: 'article', 
+		title: 'Git - O que você precisa saber para trabalhar em equipe', 
+		url: 'https://dev.to/pedrovsp/git-o-minimo-que-voce-precisa-saber-para-trabalhar-em-equipe-parte-1-2mnd', 
+		content: 'Artigo explicando o uso básico da ferramenta Git para trabalhar em equipe.' 
+	},
 ];
