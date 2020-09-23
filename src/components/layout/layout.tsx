@@ -7,14 +7,19 @@
 
 import React from "react"
 import PropTypes from "prop-types"
+import { useTranslation } from 'react-i18next';
 
 import "../../assets/styles/styles.scss"
 import "./layout.scss"
+import "../../helpers/i18n"
 
 import Header from "../header/header"
 import Footer from '../footer/footer'
 import Navbar from '../navbar/navbar'
-const Layout = ({ children }) => {
+
+const Layout = ({children}) => {
+  const { t, i18n } = useTranslation('Layout');
+  
   return (
     <React.Fragment>
       <Header siteTitle='PEDRO VITORINO' />
@@ -23,7 +28,7 @@ const Layout = ({ children }) => {
           {children}
         </main>
         <small>
-          Desenvolvindo por <strong>Pedro Vitorino</strong>. 😀
+          {t("footer")} <strong>Pedro Vitorino</strong>. 😀
         </small>
       <Footer />
     </React.Fragment>
