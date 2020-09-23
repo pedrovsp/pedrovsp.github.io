@@ -12,18 +12,20 @@ i18next
       pt: {
           Index: require('../locales/pt/Index.json'),
           Layout: require('../locales/pt/Layout.json'),
-          404: require('../locales/pt/404.json')
+          404: require('../locales/pt/404.json'),
+          Navbar: require('../locales/pt/Navbar.json')
         },
       en: {
-        Index: require('../locales/en/Index.json'),
-        Layout: require('../locales/en/Layout.json'),
-        404: require('../locales/en/404.json')
+          Index: require('../locales/en/Index.json'),
+          Layout: require('../locales/en/Layout.json'),
+          404: require('../locales/en/404.json'),
+          Navbar: require('../locales/en/Navbar.json')
       }
     },
     fallbackLng: 'en',
     preload: Languages,
     supportedLngs: Languages,
-    ns: ["Index", "Layout", "404"],
+    ns: ["Index", "Layout", "404", "Navbar"],
     returnObjects: true,
     debug: process.env.NODE_ENV === 'development',
     interpolation: {
