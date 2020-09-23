@@ -11,17 +11,19 @@ i18next
     resources: {
       pt: {
           Index: require('../locales/pt/Index.json'),
-          Layout: require('../locales/pt/Layout.json')
-      },
+          Layout: require('../locales/pt/Layout.json'),
+          404: require('../locales/pt/404.json')
+        },
       en: {
         Index: require('../locales/en/Index.json'),
-        Layout: require('../locales/en/Layout.json')      
+        Layout: require('../locales/en/Layout.json'),
+        404: require('../locales/en/404.json')
       }
     },
     fallbackLng: 'en',
     preload: Languages,
     supportedLngs: Languages,
-    ns: ["Index, Layout"],
+    ns: ["Index", "Layout", "404"],
     returnObjects: true,
     debug: process.env.NODE_ENV === 'development',
     interpolation: {
