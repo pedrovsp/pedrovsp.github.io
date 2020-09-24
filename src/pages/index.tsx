@@ -9,19 +9,23 @@ import { BoxList } from '../components/box-list/box-list'
 import { ContentBox } from '../components/content-box/content-box';
 import { Geoform } from "../components/geoform/geoform";
 import { contents } from "../helpers/contents";
+import { useTranslation } from "react-i18next";
 
 
-const IndexPage = () => (
+const IndexPage = () => {
+	const { t, i18n } = useTranslation('Index');
+
+	return (
 	<Layout>
 		<SEO title="Pedro Vitorino" />
 		<section id="home">
-			<H1 title='Fala pessoal, blz?' emoji='👋' />
+			<H1 title={t('home.title')} emoji='👋' />
 			<Par marginBottom={true}>
-				Meu nome é Pedro Vitorino, sou programador e atuo principalmente com desenvolvimento front end. Entrei no mundo da tecnologia em 2009, ano em que tive meu primeiro contato com programação e comecei a me desenvolver na área.
+				{t('home.p1')}
 			</Par>
 			<div className='d-flex align-center mb-lg'>
 				<Par>
-					Sou um entusiasta do universo da programação, nos últimos anos tenho me especializado em desenvolvimento front end, mas matenho o hábito de explorar outras áreas, principalmente arquitetura de sistemas, design de código e DevOps.
+					{t('home.p2')}
 				</Par>
 				<div className='fig-1'>
 					<Geoform type={'triangle'} size={'lg'}></Geoform>
@@ -32,7 +36,7 @@ const IndexPage = () => (
 					<Geoform type={'rectangle'} size={'sm'}></Geoform>
 				</div>
 				<Par>
-					Acredito que as comunidades de tecnologia são um excelente espaço de colaboração e por isso participo ativamente de eventos e meetups. Recemente comecei a criar palestras e textos sobre tecnologias que utilizo.
+					{t('home.p3')}
 				</Par>
 			</div>
 		</section>
@@ -41,15 +45,15 @@ const IndexPage = () => (
 				<div className='fig-3'>
 					<Geoform type={'pacman'} size={'lg'}></Geoform>
 				</div>
-				<H1 title='Com o que trabalho?' emoji='💼' />
+				<H1 title={t('work.title')} emoji='💼' />
 			</div>
 			<Par marginBottom={true}>
-				Hoje atuo como desenvolvedor front end no <a href='https://socialbank.com.br' target="_blank" rel="noreferrer">Social Bank</a>. Nos últimos anos tenho trabalhado principalmente com o framework Angular, porém tenho interesse em todo ecossistema Javascript, e estudo outros frameworks e tecnologias, principalmente React.
+				{t('work.p1.pt1')}<a href='https://socialbank.com.br' target="_blank" rel="noreferrer">Social Bank</a>{t('work.p1.pt2')}
 			</Par>
 			<div className="top-box-border" />
 			<BoxList boxType='top'>
-				<H2 title='Principais ferramentas' emoji='🔧' />
-				<H3 title='Front end' />
+				<H2 title={t('work.l1.title')} emoji='🔧' />
+				<H3 title='Frontend' />
 				<ul>
 					<li>Angular / Material / Angular Elements</li>
 					<li>React / Styled Components / Gatsby</li>
@@ -57,7 +61,7 @@ const IndexPage = () => (
 					<li>Typescript / Javascript</li>
 					<li>SASS / CSS / HTML</li>
 				</ul>
-				<H3 title='Back end' />
+				<H3 title='Backend' />
 				<ul>
 					<li>Java / Spring / Hibernate</li>
 					<li>Relational DBs / DynamoDB / MongoDB</li>
@@ -70,7 +74,7 @@ const IndexPage = () => (
 				</ul>
 			</BoxList>
 			<BoxList boxType='bottom'>
-				<H2 title='Áreas de interesse' emoji='🤔' />
+				<H2 title={t('work.l2.title')} emoji='🤔' />
 				<p className='subtitle'>
 					Tenho interesse de desenvolver mais algumas habilidades, dentre elas:
 				</p>
@@ -113,7 +117,7 @@ const IndexPage = () => (
 						url={content.url} />))
 			}
 		</section>
-	</Layout>
-)
+	</Layout>)
+}
 
 export default IndexPage
