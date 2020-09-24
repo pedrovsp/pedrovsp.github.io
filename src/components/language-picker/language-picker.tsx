@@ -26,7 +26,7 @@ export const LanguageSwitcher = () => {
         { code: "pt", label: "🇧🇷" },
     ]
     return (
-        <select className="LanguageSwitcher"
+        <select className="LanguageSwitcher" value={i18n.language}
             onChange={(event) => handleChangeLanguage(event.target.value)}>
             {languages.map(language => renderLanguageChoice(language))}
         </select>

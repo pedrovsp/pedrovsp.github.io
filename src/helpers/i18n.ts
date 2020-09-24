@@ -40,8 +40,4 @@ i18next
 
 i18next.languages = Languages;
 
-let lang = navigator && navigator.language && navigator.language.split("-")[0];
-if (!lang || !Languages.some(aLang => aLang === lang)) lang = "en";
-i18next.language = lang
-
 export default i18next;
