@@ -1,6 +1,6 @@
 import React from "react"
 import { useTranslation } from 'react-i18next';
-
+import './language-picker.scss';
 
 export const LanguageSwitcher = () => {
     const { t, i18n } = useTranslation();
