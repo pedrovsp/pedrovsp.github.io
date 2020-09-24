@@ -10,7 +10,7 @@
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    z-index: 1;
+    z-index: var(--zi-header);
 
     @media only screen and (max-width: 768px){
       font-size: 1.5rem;

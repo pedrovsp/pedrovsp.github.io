@@ -2,8 +2,8 @@
   width: calc(100vw - 2em);
   height: 1.5rem;
   padding: 1em;
-  top: calc(3rem + 30px);
-  z-index: 1;
+  top: var(--top-header);
+  z-index: var(--zi-header);
   background-color: var(--background-color);
 
   text-transform: uppercase;
