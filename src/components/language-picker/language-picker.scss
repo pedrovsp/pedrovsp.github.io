@@ -1,4 +1,5 @@
 .LanguageSwitcher {
+    cursor: pointer;
     border: none;
     background: none;
     -moz-appearance: none;
@@ -14,4 +15,10 @@
     background-repeat: no-repeat;
     background-position: right .7em top 50%;
     background-size: .65em auto;
+    
+    position: absolute;
+    top: var(--top-total);
+    right: 1rem;
+    margin-top: 5px;
+    z-index: var(--zi-lng-picker);
 }

@@ -16,20 +16,22 @@ import "../../helpers/i18n"
 import Header from "../header/header"
 import Footer from '../footer/footer'
 import Navbar from '../navbar/navbar'
+import { LanguageSwitcher } from "../language-picker/language-picker";
 
-const Layout = ({children}) => {
+const Layout = ({ children }) => {
   const { t, i18n } = useTranslation('Layout');
-  
+
   return (
     <React.Fragment>
       <Header siteTitle='PEDRO VITORINO' />
       <Navbar />
-        <main>
-          {children}
-        </main>
-        <small>
-          {t("footer")} <strong>Pedro Vitorino</strong>. 😀
-        </small>
+      <LanguageSwitcher />
+      <main>
+        {children}
+      </main>
+      <small>
+        {t("footer")} <strong>Pedro Vitorino</strong>. 😀
+      </small>
       <Footer />
     </React.Fragment>
   )
