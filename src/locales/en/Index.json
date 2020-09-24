@@ -1,0 +1,33 @@
+{
+    "home": {
+        "title": "Hey everyone, what's up?",
+        "p1": "I'm Pedro Vitorino, I'm a software engineer and I work principally with frontend web development. I started on IT in the year 2009, when I had my first contact with programming and started delving into technology.",
+        "p2": "I'm an huge enthusiatisc of all things programming, over the past few years I've been specializing on frontend web development, but I keep an habit of exploring other fields, specially software architecture, code design and DevOps.",
+        "p3": "I believe that technology communities are awesome spaces of colaboration, so I like to actively take part on tech events and meetups. More recently I started creating my own talks and articles on technologies that I use."
+    },
+    "work": {
+        "title": "What do I work with?",
+        "p1": {
+            "pt1": "Today I work as a frontend web developer at ",
+            "pt2": ". Over the past few years I've been working mainly with Angular, but I'm really curious about the whole Javascript ecosystem, so I study other frameworks and technologies as well, specially React."
+        },
+        "l1": {
+            "title": "Main tools"
+        },
+        "l2": {
+            "title": "Fields of interest",
+            "subtitle": "I have interest in working a few different skills, among them:"
+        }
+    },
+    "education": {
+        "title": "Academic background",
+        "p1": "Certification on Systems Analysis and Development for Business Management by the Instituto Federal do Triângulo Mineiro. Bacharelor's degree of Information Systems on the Universidade Federal de Uberlândia.",
+        "p2": {
+            "pt1": "As a final project for my certification, I used ",
+            "pt2": " and data analysis techniques to identify the profile of students that drop out of Computer Science undergrad courses in Brazil."
+        }
+    },
+    "content": {
+        "title": "Personal projects"
+    }
+}

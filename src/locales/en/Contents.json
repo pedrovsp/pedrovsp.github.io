@@ -1,0 +1,18 @@
+{
+    "ivy": {
+        "title": "Angular 9 & Ivy",
+        "desc": "Talk on Angular 9 new features, specially its new compiler, Ivy."
+    },
+    "pwa": {
+        "title": "Creating PWAs with Angular",
+        "desc": "Talk explaining Progressive Web Apps and how to transform your Angular app into a PWA."
+    },
+    "lotr": {
+        "title": "LotR PWA",
+        "desc": "An app created to apply the concepts of PWAs with Angular and Lord of the Rings 🤔"
+    },
+    "git": {
+        "title": "Git - What you need to know to work on a team",
+        "desc": "Short article on how to use git to work on development teams."
+    }
+}

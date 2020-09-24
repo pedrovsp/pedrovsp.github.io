@@ -18,4 +18,11 @@
 
   --ff-primary: 'Titillium Web', sans-serif;
   --ff-navbar: orator-std, monospace;
+
+  --zi-header: 2;
+  --zi-lng-picker: 1;
+
+  --top-header: calc(3rem + 30px);
+  --top-nav: calc(1.5rem + 20px);
+  --top-total: calc(var(--top-header) + var(--top-nav));
 }

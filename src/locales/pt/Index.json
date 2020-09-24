@@ -1,0 +1,33 @@
+{
+    "home": {
+        "title": "Fala pessoal, blz?",
+        "p1": "Meu nome é Pedro Vitorino, sou programador e atuo principalmente com desenvolvimento frontend. Entrei no mundo da tecnologia em 2009, ano em que tive meu primeiro contato com programação e comecei a me desenvolver na área.",
+        "p2": "Sou um entusiasta do universo da programação, nos últimos anos tenho me especializado em desenvolvimento frontend, mas matenho o hábito de explorar outras áreas, principalmente arquitetura de sistemas, design de código e DevOps.",
+        "p3": "Acredito que as comunidades de tecnologia são um excelente espaço de colaboração e por isso participo ativamente de eventos e meetups. Recemente comecei a criar palestras e textos sobre tecnologias que utilizo."
+    },
+    "work": {
+        "title": "Com o que trabalho?",
+        "p1": {
+            "pt1": "Hoje atuo como desenvolvedor frontend no ",
+            "pt2": ". Nos últimos anos tenho trabalhado principalmente com o framework Angular, porém tenho interesse em todo ecossistema Javascript, e estudo outros frameworks e tecnologias, principalmente React."
+        },
+        "l1": {
+            "title": "Principais ferramentas"
+        },
+        "l2": {
+            "title": "Áreas de interesse",
+            "subtitle": "Tenho interesse de desenvolver mais algumas habilidades, dentre elas:"
+        }
+    },
+    "education": {
+        "title": "Formação acadêmica",
+        "p1": "Especialista em Análise e Desenvolvimento de Sistemas para Gestão de Negócios pelo Instituto Federal do Triângulo Mineiro. Bacharel em Sistemas de Informação pela Universidade Federal de Uberlândia.",
+        "p2": {
+            "pt1": "Como trabalho de conclusão da pós-graduação, utilizei ",
+            "pt2": " e técnicas de análise de dados para traçar o perfil dos alunos que desistem de cursos computação no Brasil."
+        }
+    },
+    "content": {
+        "title": "Projetos pessoais"
+    }
+}
