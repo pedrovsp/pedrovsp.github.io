@@ -1,0 +1,18 @@
+{
+    "ivy": {
+        "title": "Angular 9 e Ivy",
+        "desc": "Palestra sobre as novidades do Angular 9 e seu novo compilador, Ivy."
+    },
+    "pwa": {
+        "title": "Criando PWAs com Angular",
+        "desc": "Palestra explicando PWAs e como transformar sua aplicação Angular em uma PWA."
+    },
+    "lotr": {
+        "title": "LotR PWA",
+        "desc": "Aplicação criada para aplicar conceitos de PWAs com Angular e Senhor dos Anéis 🤔"
+    },
+    "git": {
+        "title": "Git - O que você precisa saber para trabalhar em equipe",
+        "desc": "Artigo explicando o uso básico da ferramenta Git para trabalhar em equipe."
+    }
+}
