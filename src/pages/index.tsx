@@ -76,12 +76,12 @@ const IndexPage = () => {
 			<BoxList boxType='bottom'>
 				<H2 title={t('work.l2.title')} emoji='🤔' />
 				<p className='subtitle'>
-					Tenho interesse de desenvolver mais algumas habilidades, dentre elas:
+				{t('work.l2.subtitle')}
 				</p>
 				<ul>
 					<li>TDD / BDD</li>
 					<li>Docker / Kubernets</li>
-					<li>Acessibilidade (a11y)</li>
+					<li>A11y</li>
 					<li>Web components</li>
 				</ul>
 			</BoxList>
@@ -90,21 +90,21 @@ const IndexPage = () => {
 			</div>
 		</section>
 		<section id="education">
-			<H1 title='Formação acadêmica' emoji='🎓' />
+			<H1 title={t('education.title')} emoji='🎓' />
 			<Par marginBottom={true}>
-				Especialista em Análise e Desenvolvimento de Sistemas para Gestão de Negócios pelo Instituto Federal do Triângulo Mineiro. Bacharel em Sistemas de Informação pela Universidade Federal de Uberlândia.
+				{t('education.p1')}
 			</Par>
 			<div className='d-flex align-center mb-lg'>
 				<div className='fig-5'>
 					<Geoform type={'triangle'} size={'sm'}></Geoform>
 				</div>
 				<Par>
-					Como trabalho de conclusão da pós-graduação, utilizei <strong>Python</strong> e técnicas de análise de dados para traçar o perfil dos alunos que desistem de cursos computação no Brasil.
+				{t('education.p2.pt1')}<strong>Python</strong>{t('education.p2.pt2')}
 				</Par>
 			</div>
 		</section>
 		<section id="content">
-			<H1 title='Projetos pessoais' emoji='💭' />
+			<H1 title={t('content.title')} emoji='💭' />
 			<div className='fig-6'>
 				<Geoform type={'decagon'} size={'lg'}></Geoform>
 			</div>

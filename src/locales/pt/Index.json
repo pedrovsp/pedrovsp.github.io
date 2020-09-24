@@ -13,6 +13,21 @@
         },
         "l1": {
             "title": "Principais ferramentas"
+        },
+        "l2": {
+            "title": "Áreas de interesse",
+            "subtitle": "Tenho interesse de desenvolver mais algumas habilidades, dentre elas:"
         }
+    },
+    "education": {
+        "title": "Formação acadêmica",
+        "p1": "Especialista em Análise e Desenvolvimento de Sistemas para Gestão de Negócios pelo Instituto Federal do Triângulo Mineiro. Bacharel em Sistemas de Informação pela Universidade Federal de Uberlândia.",
+        "p2": {
+            "pt1": "Como trabalho de conclusão da pós-graduação, utilizei ",
+            "pt2": " e técnicas de análise de dados para traçar o perfil dos alunos que desistem de cursos computação no Brasil."
+        }
+    },
+    "content": {
+        "title": "Projetos pessoais"
     }
 }
