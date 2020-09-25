@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Pedro Vitorino Personal Webpage`,
-    description: `Pedro Vitorino personal webpage`,
+    title: `Pedro Vitorino`,
+    description: `Pedro Vitorino Personal Webpage`,
     author: `@pedrovsp`,
   },
   plugins: [
@@ -14,6 +14,14 @@ module.exports = {
       resolve: `gatsby-plugin-nprogress`,
       options: {
         color: `#ABC4E1`
+      }
+    },
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: ['Titillium Web:400,700']
+        }
       }
     },
     {
