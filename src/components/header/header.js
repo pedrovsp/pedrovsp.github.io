@@ -10,10 +10,10 @@ const Header = ({ siteTitle }) => (
       {siteTitle}
     </span>
     <div className='header__icons'>
-      <a href="https://github.com/pedrovsp" target="_blank" rel="noreferrer">
+      <a href="https://github.com/pedrovsp" target="_blank" rel="noreferrer" aria-label="Github Profile">
         <Github />
       </a>
-      <a href="https://linkedin.com/in/pedrovsp" target="_blank" rel="noreferrer">
+      <a href="https://linkedin.com/in/pedrovsp" target="_blank" rel="noreferrer" aria-label="Linkedin Profile">
         <Linkedin />
       </a>
     </div>
