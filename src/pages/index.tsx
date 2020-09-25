@@ -17,7 +17,7 @@ const IndexPage = () => {
 
 	return (
 	<Layout>
-		<SEO title="Pedro Vitorino" />
+		<SEO title="Pedro Vitorino Home page" description="Pedro vitorino personal home page" lang={i18n.language} />
 		<section id="home">
 			<H1 title={t('home.title')} emoji='👋' />
 			<Par marginBottom={true}>
