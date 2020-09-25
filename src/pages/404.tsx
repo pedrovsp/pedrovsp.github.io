@@ -9,7 +9,7 @@ const NotFoundPage = () => {
 
   return (
   <Layout>
-    <SEO title="404: Not found" />
+    <SEO title="404: Not found" description="Fallback not found page" lang={i18n.language} />
     <h1>{t('title')}</h1>
     <p>{t('content')}</p>
   </Layout>)

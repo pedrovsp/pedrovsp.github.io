@@ -27,6 +27,7 @@ export const LanguageSwitcher = () => {
     ]
     return (
         <select className="LanguageSwitcher" value={i18n.language}
+            aria-label={t("picker")}
             onChange={(event) => handleChangeLanguage(event.target.value)}>
             {languages.map(language => renderLanguageChoice(language))}
         </select>
