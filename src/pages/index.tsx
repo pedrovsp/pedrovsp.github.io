@@ -48,7 +48,7 @@ const IndexPage = () => {
 				<H1 title={t('work.title')} emoji='💼' />
 			</div>
 			<Par marginBottom={true}>
-				{t('work.p1.pt1')}<a href='https://socialbank.com.br' target="_blank" rel="noreferrer">Social Bank</a>{t('work.p1.pt2')}
+				{t('work.p1.pt1')}McKinsey{t('work.p1.pt2')}
 			</Par>
 			<div className="top-box-border" />
 			<BoxList boxType='top'>
@@ -56,7 +56,7 @@ const IndexPage = () => {
 				<H3 title='Frontend' />
 				<ul>
 					<li>Angular / Material / Angular Elements</li>
-					<li>React / Styled Components / Gatsby</li>
+					<li>React / React Hooks / Gatsby</li>
 					<li>Redux / RxJS</li>
 					<li>Typescript / Javascript</li>
 					<li>SASS / CSS / HTML</li>
@@ -69,7 +69,7 @@ const IndexPage = () => {
 				<H3 title='DevOps' />
 				<ul>
 					<li>AWS / EC2 / RDS / S3</li>
-					<li>Azure pipelines / API Management</li>
+					<li>Azure pipelines / Azure API Management</li>
 					<li>Github / Git Actions</li>
 				</ul>
 			</BoxList>
