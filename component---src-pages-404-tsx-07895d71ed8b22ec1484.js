@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{"i6+/":function(e,n,t){"use strict";t.r(n);var a=t("q1tI"),l=t.n(a),c=t("9Koi"),o=t("B7F5"),i=t("H8eV");n.default=function(){var e=Object(c.a)("404"),n=e.t,t=e.i18n;return l.a.createElement(o.a,null,l.a.createElement(i.a,{title:"404: Not found",description:"Fallback not found page",lang:t.language}),l.a.createElement("h1",null,n("title")),l.a.createElement("p",null,n("content")))}}}]);
+//# sourceMappingURL=component---src-pages-404-tsx-07895d71ed8b22ec1484.js.map
